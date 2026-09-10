@@ -1,0 +1,53 @@
+css
+.hearder-simples{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #1e293b;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+.hearder-simples .logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hearder-simples .menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.hearder-simples .menu a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+html
+  <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+    <header class="hearder-simples">
+    <div class="logo">Meu Site</div>
+    <nav>
+        <ul class="menu">
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+</body>
+</html>
