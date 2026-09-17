@@ -45,6 +45,8 @@ body {
 .magalub span {
     font-size: 13px;
     white-space: nowrap;
+    background-color: white;
+    color: rgb(50, 123, 188);
 }
 
 #banner {
