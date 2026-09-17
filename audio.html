@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Audio</title>
+</head>
+
+<body>
+
+   <!-- A tag audio tem atributos:
+   
+   controls > exibir o controle
+   
+    autoplay > tocar automaticamente  
+    *obs não recomendando iniciar com
+    autoplay com o som habilitado,
+    alguns navegadores pode barrar
+   
+    muted > iniciar mudo
+    -->
+
+   <audio controls autoplay muted>
+      <!-- fontes sonora, o html irá testar a compatibilidade do navegador
+       para tocar os formatos dos audios digitais ".mp3, .ogg, .wav"
+       Caso o navegador não tenha compatibilidade exibi a mensagem-->
+      <source src="audio/som.mp3" type="audio/mpeg">
+      <source src="audio/som.ogg" type="audio/ogg">
+      <source src="audio/som.wav" type="audio/wav">
+      *Esse navegador não compativel
+   </audio>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+</head>
+
+
+<style>
+    .blue {
+        width: 100px;
+        height: 100px;
+        background: turquoise;
+        /* Evento Transition */
+        transition: width 1s;
+        transition-timing-function:
+            cubic-bezier(1.1, 0.7, 1.0, 0.1);
+    }
+
+    .green {
+        width: 100px;
+        height: 100px;
+        background: greenyellow;
+        transition: width 3s;
+        transition-timing-function:
+        cubic-bezier(0.895, 0.03, 0.685, 0.22)
+    }
+
+    .blue:hover {
+        width: 600px;
+    }
+
+    .green:hover {
+        width: 600px;
+    }
+</style>
+
+<body>
+    <h1>Evento CSS - Transition</h1>
+
+    <div class="blue"></div>
+    <div class="green"></div>
+
+</body>
+
+</html>
