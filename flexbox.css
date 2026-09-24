@@ -6,40 +6,41 @@
 
 .conteiner{
     display: flex;
+    gap: 1px;
     flex-direction: row;
 }
 
 .conteiner div{
-    display: flex;
     background-color: aqua;
     padding: 20px;
+    margin: auto;
 }
 
 .col-30{
-    flex: 0 0 30%;
+    flex: 0 1 30%;
 }
 
 .col-50{
-    flex: 0 0 50%;
+    flex: 0 1 50%;
 }
 
 .col-70{
-    flex: 0 0 70%;
+    flex: 0 1 70%;
 }
 
 .col-100{
-    flex: 0 0 100%;
+    flex: 0 1 100%;
 }
 
-#ii{
+#50{
     justify-content: center;
 }
 
-#blocos{
+#70e30{
     justify-content: center;
 }
 
-#bb{
+#303030{
     justify-content: center;
 }
 
@@ -49,5 +50,4 @@
     left: 0;
     width: 100%;
     height: 50px;
-    background-color: blanchedalmond;
 }
